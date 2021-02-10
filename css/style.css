@@ -12,8 +12,24 @@ Primary use:    MultiPurpose Template
 @import "et-line.css";
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,300,700);
 @import url(https://fonts.googleapis.com/css?family=Dosis:300,400,700);
-@import url(https://db.onlinewebfonts.com/c/5b381abe79163202b03f53ed0eab3065?family=Sanomat+Web+Regular);
-@import url(https://db.onlinewebfonts.com/c/191951bbd9fb86a9fe5cab3a5c060ee8?family=GuardianTextSansWeb);
+
+@font-face {font-family: "Sanomat Web Regular";
+    src: url("https://db.onlinewebfonts.com/t/5b381abe79163202b03f53ed0eab3065.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/5b381abe79163202b03f53ed0eab3065.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/5b381abe79163202b03f53ed0eab3065.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/5b381abe79163202b03f53ed0eab3065.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/5b381abe79163202b03f53ed0eab3065.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/5b381abe79163202b03f53ed0eab3065.svg#Sanomat Web Regular") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {font-family: "GuardianTextSansWeb";
+    src: url("https://db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.eot"); /* IE9*/
+    src: url("https://db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("https://db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.woff2") format("woff2"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.woff") format("woff"), /* chrome firefox */
+    url("https://db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("https://db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.svg#GuardianTextSansWeb") format("svg"); /* iOS 4.1- */
+}
 
 /* @font-face {font-family: "GuardianTextSansWeb"; src: url("//db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.eot"); src: url("//db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.woff") format("woff"), url("//db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/191951bbd9fb86a9fe5cab3a5c060ee8.svg#GuardianTextSansWeb") format("svg"); }
 
