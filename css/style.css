@@ -3081,7 +3081,7 @@ a.logo:hover {
 
 .section-text {
     font-size: 16px;
-    font-weight: bolder;
+    font-family: "GuardianTextSansWeb";
     color: #111;
     line-height: 1.7;
 }
